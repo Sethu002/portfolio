@@ -1,0 +1,172 @@
+.home{
+    height: 5vh;
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+  
+}
+ul li{
+
+    list-style: none;
+    display:inline-block;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: first baseline;
+    
+}
+.h{
+
+    width: 100%;
+ 
+    
+    
+}
+img{
+    height: 100vh;
+
+   
+}
+.pic{
+    width: 1000px;
+    display: flex;
+    padding-right: 100px;
+    flex-basis: 50%;
+}
+.p1{
+    padding: 50px 20px;
+    width: 2000px;
+    display:grid;
+    height: 70vh;
+    size: 100px;
+    margin: 20px;
+    background-color: aqua;
+    flex-basis: 50%;
+}
+.skills h1{
+  text-align: center;
+  justify-content: center;
+}
+.s1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.test{
+    height: 300px;
+    width: 300px;
+    padding: 20px 10px;
+    background-color: aqua;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.top{
+    text-align: end;
+    width:100%;
+}
+.blogs h1{
+     text-align: left;
+     justify-content: left;
+     
+}
+.card{
+    border-radius: 20px;
+    min-height: 300px;
+    min-height: 200px;
+    display: flex
+    
+}
+.m1 img{
+    height: 300px;
+    width: 300px;
+    padding: 20px 10px;
+}
+.card h2{
+  text-align: center;
+  justify-content: center;
+
+}
+.blogs{
+    place-items: center;
+    display: grid;
+}
+.container{
+    display: flex;
+    animation: scroll 30s linear infinite;
+    overflow: hidden;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+a{
+    text-decoration: none;
+    color: rgb(41, 1, 1);
+}
+.cont{
+    height: 70vh;
+    width: 100%;
+}
+.containerbox{
+    display: flex;
+}
+.contleft{
+    flex-basis: 50%;
+    padding: 40px 60px;
+    background-color: darkgrey;
+}
+.contright{
+    flex-basis: 50%;
+    padding: 40px;
+    background-color: bisque;
+}
+.inputrow{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+ 
+}
+.inputrow.inputgroup{
+    flex-basis: 40%;
+    display: flex;
+  
+
+}
+.input{
+    padding: 10px 5px;
+    justify-content: space-between;
+    
+}
+text area{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border:1px solid;
+
+}
+.contright img{
+    height: 50px;
+    width: 60px;
+}
+button{
+    color: coral;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+span{
+    color: blue;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
